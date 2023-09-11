@@ -1,0 +1,48 @@
+body {
+  font-family: "Roboto", sans-serif !important;
+  margin: 0;
+}
+.nav-realpaint {
+  color: #58494e !important;
+  font-weight: 700 !important;
+  text-decoration: none;
+}
+.nav-realpaint:hover {
+    color: #e10a11 !important;
+}
+.titulos{
+    color:#58494e;
+    font-weight: bold !important;
+}
+
+.accesos-productos{
+    background-color: #e10a11;
+}
+.accesos-productos:hover {
+    background-color: #ab0a0f;
+  }
+.accesos-pedidos{
+    background-color: #fccb34;
+}
+.accesos-pedidos:hover {
+    background-color: #d5ab2c;
+  }
+.accesos-contacto{
+    background-color: #58494e;
+}
+.accesos-contacto:hover {
+    background-color: #454545;
+  }
+  .footer {
+    background-color: #e10a11;
+  }
+
+  .footer a:hover {
+    opacity: 70%;
+  }
+  .boton{
+      background-color: #58494e !important;
+  }
+  .boton:hover{
+    background-color: #454545 !important;
+  }

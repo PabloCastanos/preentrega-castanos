@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Paint</title>
+    <link rel="stylesheet" href="../estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 container">
+      <a
+        href="../index.html"
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        target="blank"
+      >
+        <img src="../imagenes/logo.svg" alt="logo real paint" />
+      </a>
+
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a
+            class="nav-link nav-realpaint"
+            href="quienes-somos.html"
+            target="blank"
+            >Quienes somos</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-realpaint" href="productos.html" target="blank"
+            >Productos</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-realpaint" href="pedidos.html" target="blank"
+            >Hace tu pedido</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-realpaint" href="contacto.html" target="blank"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+    </header>
+    <main class="container">
+      <section>
+        <h2 class="text-center my-5 titulos">Hacé tu pedido</h2>
+        <form class="row g-3" action="pedidos_get.php" method="get">
+          <div class="col-md-6">
+            <label for="inputNombre" class="form-label">Nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputNombre"
+              placeholder="nombre"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputApellido" class="form-label">Apellido</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputApellido"
+              placeholder="apellido"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail"
+              placeholder="email@mail.com"
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputTelefono" class="form-label">Telefono</label>
+            <input
+              type="number"
+              class="form-control"
+              id="inputTelefono"
+              placeholder="011123456789"
+            />
+          </div>
+          <div class="col-12">
+            <label class="form-label" for="inputPedido"
+              >Dejanos tu pedido</label
+            >
+            <textarea
+              class="form-control"
+              id="inputPedido"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <div class="form-check form-check-reverse">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                Deseo enviar la informacion
+              </label>
+            </div>
+          </div>
+          <div class="col-12 text-end">
+            <button type="submit" class="btn boton text-light">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <div class="footer">
+      <footer
+        class="container d-flex flex-wrap justify-content-between align-items-center py-3 mt-5 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <p class="text-light fw-bold mb-0">Real Paint</p>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a
+              href="https://www.facebook.com/Pintureriarealpaint/"
+              target="blank"
+            >
+              <img src="../imagenes/Facebook.svg" alt="icono de facebook"
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a
+              href="https://www.instagram.com/pinturas_realpaint/"
+              target="blank"
+            >
+              <img src="../imagenes/instagram.svg" alt="icono de instagram"
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a href="mailto:info@realpaint.com.ar" target="blank">
+              <img src="../imagenes/mail.svg" alt=""
+            /></a>
+          </li>
+          <li class="ms-3">
+            <a href="https://wa.me/542215599537" target="blank">
+              <img src="../imagenes/wsp.svg" alt=""
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

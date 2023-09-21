@@ -50,3 +50,23 @@ body {
   .rrss-cont {
     color: #58494e;
   }
+  .item-productos h6 {
+    color: #58494e;
+  }
+
+  .item-productos h5 {
+    color: #e10a11;
+  }
+
+  .item-productos img{
+    height: 250px;
+  }
+
+  .item-productos{
+    height: 100%;
+  }
+
+  @media screen and (max-width: 756px){
+    .item-productos:
+    margin-bottom: 3rem;
+  }

@@ -46,3 +46,7 @@ body {
   .boton:hover{
     background-color: #454545 !important;
   }
+
+  .rrss-cont {
+    color: #58494e;
+  }

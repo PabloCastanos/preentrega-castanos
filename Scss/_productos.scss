@@ -1,0 +1,22 @@
+section{
+    div{
+        div{
+            @include mobile{
+                margin-bottom: 3rem;
+            }
+          .item-productos{
+              height: 100%;
+              h6{
+                 color: $color-secondary; 
+              }
+              h5{
+                  color: $color-primary;
+              }
+              img{
+                  height: 250px;
+              }
+              
+          }  
+        }
+    }
+}

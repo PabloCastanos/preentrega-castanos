@@ -1,0 +1,14 @@
+header {
+  ul {
+    li {
+      .nav-realpaint {
+        color:$color-secondary !important;
+        font-weight: 700 !important;
+        text-decoration: none;
+      }
+      & .nav-realpaint:hover {
+        color: $color-primary !important;
+      }
+    }
+  }
+}

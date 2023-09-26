@@ -1,0 +1,12 @@
+section{
+    form{
+        div{
+            .boton{
+               background-color: $color-secondary; 
+            }
+            & .boton:hover{
+                background-color: $color-secondary-hover;
+            }
+        }
+    }
+}

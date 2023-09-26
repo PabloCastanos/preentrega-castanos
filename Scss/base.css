@@ -1,0 +1,126 @@
+body {
+  font-family: "Roboto", sans-serif !important;
+  margin: 0;
+}
+
+main {
+  min-height: calc(100vh - 226px);
+}
+
+main section .titulos {
+  color: #58494e;
+  font-weight: bold !important;
+}
+
+header ul li .nav-realpaint {
+  color: #58494e !important;
+  font-weight: 700 !important;
+  text-decoration: none;
+}
+
+header ul li .nav-realpaint:hover {
+  color: #e10a11 !important;
+}
+
+.footer {
+  background-color: #e10a11;
+}
+
+.footer footer ul li a:hover {
+  opacity: 70%;
+}
+
+section div div .accesos-productos {
+  color: #ffffff;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  padding: 3rem 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  background-color: #e10a11;
+}
+
+section div div .accesos-productos:hover {
+  background-color: #ab0a0f;
+}
+
+section div div .accesos-pedidos {
+  color: #ffffff;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  padding: 3rem 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  background-color: #58494e;
+}
+
+section div div .accesos-pedidos:hover {
+  background-color: #454545;
+}
+
+section div div .accesos-contacto {
+  color: #ffffff;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  padding: 3rem 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+          box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  background-color: #fccb34;
+}
+
+section div div .accesos-contacto:hover {
+  background-color: #d5ab2c;
+}
+
+section div div .rrss-cont {
+  color: #58494e;
+}
+
+section form div .boton {
+  background-color: #58494e;
+}
+
+section form div .boton:hover {
+  background-color: #454545;
+}
+
+@media screen and (max-width: 576px) {
+  section div div {
+    margin-bottom: 3rem;
+  }
+}
+
+section div div .item-productos {
+  height: 100%;
+}
+
+section div div .item-productos h6 {
+  color: #58494e;
+}
+
+section div div .item-productos h5 {
+  color: #e10a11;
+}
+
+section div div .item-productos img {
+  height: 250px;
+}
+/*# sourceMappingURL=base.css.map */

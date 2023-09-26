@@ -1,0 +1,10 @@
+@mixin accesos ($bg-color) {
+color: $color-white;
+border-radius: 8px;
+display: flex;
+text-decoration: none;
+padding: 3rem 1.5rem;
+align-items: center;
+box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+background-color: $bg-color;
+}

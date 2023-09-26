@@ -1,0 +1,28 @@
+section {
+  div {
+    div {
+      .accesos-productos {
+        @include accesos($color-primary);
+      }
+      & .accesos-productos:hover {
+        background-color: $color-primary-hover;
+      }
+    }
+    div {
+      .accesos-pedidos {
+        @include accesos($color-secondary);
+      }
+      & .accesos-pedidos:hover {
+        background-color: $color-secondary-hover;
+      }
+    }
+    div {
+      .accesos-contacto {
+        @include accesos($color-tertiary);
+      }
+      & .accesos-contacto:hover {
+        background-color: $color-tertiary-hover;
+      }
+    }
+  }
+}
